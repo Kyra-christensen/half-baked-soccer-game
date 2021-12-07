@@ -1,6 +1,6 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-import { renderGame } from '../render-utils.js';
+
 const test = QUnit.test;
 
 test('renderGame() should return a div that has the team names and scores within it', (expect) => {
