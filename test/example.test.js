@@ -1,9 +1,9 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-
+import { renderGame } from '../render-utils.js';
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
+test('renderGame() should return a div that has the team names and scores within it', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = true;
@@ -11,7 +11,6 @@ test('time to test a function', (expect) => {
     //Act 
     // Call the function you're testing and set the result to a const
     const actual = true;
-
     //Expect
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);

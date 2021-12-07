@@ -75,6 +75,7 @@ header img {
 
 p {
     margin: var(--gutter);
+    
 }
 
 
@@ -194,4 +195,11 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+div.past-game {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    
 }
